@@ -1,0 +1,247 @@
+.nav-items
+{
+    margin-right: 50px;
+}
+.nav-link
+{
+    font-weight: bold !important;
+}
+.nav-btn1
+{
+    font-weight: bold !important;
+    border-radius: 50px !important;
+    padding-top: 15px !important; ;
+    padding-bottom: 15px !important; ;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    background-color: rgb(13, 173, 13) !important;
+      
+}
+.nav-btn2
+{
+    font-weight: bold !important;
+    border-radius: 50px !important;
+    padding-top: 15px !important; ;
+    padding-bottom: 15px !important; ;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border: 2px solid rgb(13, 173, 13) !important;
+      
+}
+.nav-btn1:hover
+{
+  background-color: rgb(10, 202, 10) !important ;
+}
+
+.nav-btn2:hover
+{
+  background-color: white !important ;
+  color: green !important;
+
+}
+.heading1
+{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.heading2
+{
+    font-weight: bolder;
+    font-size: 50px;
+    color:rgb(13, 173, 13) ;
+    
+}
+.heading-info
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.banner-btn2
+{
+    font-weight: bold !important;
+    border-radius: 50px !important;
+    padding-top: 15px !important; ;
+    padding-bottom: 15px !important; ;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    background-color: rgb(13, 173, 13) !important;
+    margin-left: 20px !important;
+}
+.banner-btn1
+{
+    font-weight: bold !important;
+    border-radius: 50px !important;
+    padding-top: 15px !important; ;
+    padding-bottom: 15px !important; ;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    }
+
+.btn-info1
+{
+
+ position: relative;
+ left: 30px;
+ font-style: italic;
+ font-weight: bold;
+ font-size: 12px; 
+}
+
+.btn-info2
+{
+
+ font-size: 12px;
+ position: relative;
+ left: 33px;
+ font-style: italic;
+ font-weight: bold;
+}
+.section1
+{
+    height: 200px !important;
+    width: 800px !important;
+    /* background-color: aqua; */
+}
+.section1-text
+{
+    text-align: justify;
+}
+
+.dot
+{
+    /* background-color: blue !important; */
+    border-radius: 50% !important;
+    height: 13px !important;
+    width: 13px !important;
+    margin-right: 20px !important;
+    position: relative;
+    top: 80px;
+    /* background-color: white !important; */
+    border: 1px solid white !important;
+    background-color: white !important;
+    
+    
+}
+.pic-slider
+{
+    background-color: rgb(19, 187, 19) !important;
+    height: 700px;
+    border-radius: 20px;
+}
+.first-cards
+{
+    border-radius: 20px !important;
+    margin-left: 10px !important;
+    
+}
+.image
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-title  , .card-text
+{
+    text-align: center;
+}
+.card-btn
+{
+    margin-left: 50px !important;
+    background-color: rgb(19, 187, 19) !important;
+    color: white !important;
+    font-weight:400 !important;
+}
+.card-text
+{
+    font-size: 12px;
+}
+.card-title
+{
+    font-weight: bold;
+}
+.slider-caption
+{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: white ;
+    font-size: 20px;
+}
+.slider-caption span
+{
+    font-weight: bold;
+}
+.slider-article
+{
+    height: 420px;
+    width: 250px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.section2
+{
+    margin-top: 100px;
+}
+.section2 button
+{
+    margin-top: 50px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 7px;
+}
+.browse-btn:hover
+{
+    background-color: rgb(137, 53, 233)
+}
+.section3-btn
+{
+    margin-left: 130px;
+    background-color: rgb(7, 173, 7) !important;
+}
+.card-title2
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+.heading2 a 
+{
+    text-decoration: none;
+}
+.icon
+{
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+.icon-info
+{
+    font-size: 11px;
+    position: relative;
+    right: 30px;
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.move-up {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition */
+}
+
+.show {
+    opacity: 1; /* Show element */
+    animation: moveUp 3s ease-out forwards; /* Apply animation */
+}
+
+
